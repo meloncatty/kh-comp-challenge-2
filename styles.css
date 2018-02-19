@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: inline-block;
+  height: 10vh;
+  padding: 50px 0 0 10px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  height: 25vh;
+  background: #191716;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: 15px; */
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+}
+
+.profile-card {
+ width: 23.5%;
+ height: 100%;
+ border: 1px solid mistyrose;
+ /* display: flex; */
+ margin: 10px 8px 0 8px;
+}
