@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Rambla', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -9,9 +14,18 @@ h1 {
   padding: 50px 0 0 10px;
 }
 
-li {
+.banner a {
+  text-decoration: none;
+  color: #fcfcfc;
+  font-size: 20px;
+}
+
+ul {
+  padding-top: 20vh;
+  width: 40vw;
+  display: inline-flex;
   list-style: none;
-  display: inline;
+  justify-content: space-between;
 }
 
 main {
@@ -19,10 +33,50 @@ main {
   flex-direction: column;
 }
 
-.banner {
-  height: 25vh;
-  background: #191716;
+p {
+  font-family: 'Shrikhand', cursive;
+  color: #fcfcfc;
+  font-size: 2rem;
+  text-align: right;
+  line-height: 1.2em;
+}
 
+.aside-nav a {
+    display: inline-flex;
+
+}
+
+.aside-nav {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 20vh;
+  width: 35vw;
+  justify-content: space-around;
+}
+
+.flex-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.galaxy-logo {
+  width: 22%;
+  height: 22%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  height: 20vh;
+  background: #191716;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .card-container {
