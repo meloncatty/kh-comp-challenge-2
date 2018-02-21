@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Rambla', sans-serif;
+  font-family: 'Aldrich', sans-serif;
 }
 
 html {
@@ -11,13 +11,7 @@ html {
 h1 {
   display: inline-block;
   height: 10vh;
-  padding: 50px 0 0 10px;
-}
-
-.banner a {
-  text-decoration: none;
-  color: #fcfcfc;
-  font-size: 20px;
+  padding: 40px 0 0 20px;
 }
 
 ul {
@@ -33,9 +27,19 @@ main {
   flex-direction: column;
 }
 
-p {
+h5 {
+  line-height: 5px;
+}
+
+.banner a {
+  text-decoration: none;
+  color: #E6AF2E;
+  font-size: 20px;
+}
+
+.banner p {
   font-family: 'Shrikhand', cursive;
-  color: #fcfcfc;
+  color: #E6AF2E;
   font-size: 2rem;
   text-align: right;
   line-height: 1.2em;
@@ -43,7 +47,6 @@ p {
 
 .aside-nav a {
     display: inline-flex;
-
 }
 
 .aside-nav {
@@ -71,8 +74,8 @@ p {
 }
 
 .banner {
-  height: 20vh;
-  background: #191716;
+  height: 18vh;
+  background: #333333;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -83,18 +86,130 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* margin: 15px; */
   align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  height: 60vh;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 70vh;
 }
 
 .profile-card {
- width: 23.5%;
+ width: 22.7%;
  height: 100%;
- border: 1px solid mistyrose;
- /* display: flex; */
+ /* background: #385F71; */
  margin: 10px 8px 0 8px;
+ display: flex;
+ flex-direction: column;
+ box-shadow: 5px 5px 2px grey;
+ color: #E6AF2E;
+ border: 1px solid #385F71;
+}
+
+.personal-info {
+  padding: 10px;
+  line-height: 35px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name {
+  font-size: 17px;
+}
+.personal-info h3 {
+  font-size: 15px;
+}
+
+.personal-info h5 {
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: grey;
+}
+
+.quote {
+  background: #E8F1F2;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-top: 25px
+}
+
+.quote h5 {
+  line-height: 15px;
+  text-align: center;
+  color: #385F71;
+  /* font-size: 13px; */
+}
+
+.fav-episode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fav-episode h2 {
+  line-height: 10px;
+  color: #385F71;
+}
+
+/* ----- images ----- */
+.card-one .overlay {
+ background-image: url('images/picard.jpg');
+ background-position-y: 25%;
+ height: 160px;
+}
+
+.card-two .overlay {
+ background-image: url('images/riker.png');
+ background-position-y: 25%;
+ height: 160px;
+}
+
+.card-three .overlay {
+ background-image: url('images/worf.jpeg');
+ background-position-y: 40%;
+ height: 160px;
+}
+
+.card-four .overlay {
+ background-image: url('images/best-deanna.jpg');
+ background-position-y: 30%;
+ background-position-x: 40%;
+ height: 160px;
+}
+
+.card-four .overlay {
+ background-image: url('images/best-deanna.jpg');
+ background-position-y: 30%;
+ background-position-x: 40%;
+ height: 160px;
+}
+
+.card-five .overlay {
+ background-image: url('images/wesley-whines.jpg');
+ /* background-position-y: 0; */
+ /* background-position-x: 60%; */
+ height: 160px;
+}
+
+.card-six .overlay {
+ background-image: url('images/data-spot.jpg');
+ background-position-y: 30%;
+ background-position-x: 40%;
+ height: 160px;
+}
+
+.card-seven .overlay {
+ background-image: url('images/guinan.png');
+ background-position-y: 60%;
+ background-position-x: 40%;
+ height: 160px;
+}
+
+.card-eight .overlay {
+ background-image: url('images/q.jpg');
+ background-position-y: 30%;
+ background-position-x: 40%;
+ height: 160px;
 }
